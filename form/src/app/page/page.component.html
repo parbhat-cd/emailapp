@@ -1,0 +1,19 @@
+<div class="bootstrap-wrapper">
+    <div class="container text-center mt">
+        <h1 id="login1" class="text-center1" style="font-weight: bold; margin-top: 5%; font-size: 30px; margin-right: 70%;"> welcome {{username}} to page</h1>
+   
+<button (click)="textchange()" class="clickbutton"  mat-raised-button color="primary" style="margin-top: 20px; margin-right: 70%;" > click</button>
+    </div>
+    </div>
+    <br>
+    <br>
+
+    <select style="margin-left: 13%;" class="form-control" name="country" id="country">
+        <option value="" disabled selected>Select Country</option>
+        <option *ngFor="let country of countries" [value]="country.name">{{country.name}}</option>
+   </select>
+   
+   
+   
+    
+

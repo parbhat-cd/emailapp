@@ -1,0 +1,13 @@
+@media screen and (min-width:320px) and (max-width:600px){
+    .text-center1 {
+       font-weight: bold;
+   margin-top: 5%;
+   font-size: 20px;
+   margin-right: 14%;
+   }
+
+.clickbutton {
+   margin-top: 1px;
+   margin-right: 21%;
+  }
+}
